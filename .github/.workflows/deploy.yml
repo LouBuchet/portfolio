@@ -1,22 +1,22 @@
-name: "Deploy to GitHub Pages"
+name: Deploy to GitHub Pages
 
 on:
   push:
     branches:
-      - master
       - main
+      - master
 
 jobs:
   deploy:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
 
       - name: Setup Node.js
-        uses: actions/setup-node@v1
+        uses: actions/setup-node@v3
         with:
-          node-version: "18"
+          node-version: 18
 
       - name: Install dependencies
         run: npm install
@@ -24,9 +24,11 @@ jobs:
       - name: Build
         run: npm run build
 
+      - name: Show build output
+        run: ls -l ./dist
+
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./dist
-          publish_branch: gh-pages
