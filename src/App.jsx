@@ -114,7 +114,7 @@ const App = () => {
       <p className="text-lg leading-relaxed text-justify">
       Lors de mon stage au Limoges CSP, j'avais pour mission de réaliser les visuels de matchs pour l'équipe espoir. Ces affiches étaient destinées à promouvoir les rencontres sportives sur les réseaux sociaux et à maintenir l’engouement des supporters autour de cette catégorie de jeunes talents. Mon travail impliquait de créer des designs attractifs et dynamiques, en cohérence avec la charte graphique du club, tout en mettant en avant les informations essentielles du match. Cette responsabilité m’a permis de contribuer directement à la communication du club et de perfectionner mes compétences en graphisme, notamment sur des outils tels que Photoshop.
       </p>
-    </div> */}
+    </div> */} 
 
     {/* Colonne droite : Galerie d'images */}
     {/* <div className="grid grid-cols-3 gap-4 w-full md:w-1/2 top-9">
