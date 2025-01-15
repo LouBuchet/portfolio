@@ -79,21 +79,29 @@ const App = () => {
 
  {/* BOUTONS */}
 
-  <div className="flex w-2/3 mt-10 gap-10">
+<div className="justify-between flex w-2/3 mt-10">
   {/* Bouton PROJETS */}
-  <button className="flex-1 bg-[#c29a9a] text-white font-bold py-4 rounded-lg border-r border-white hover:opacity-90">
-    PROJETS
+  <a href=" /portfolio/public/Components/projets.jsx" className="">
+  <button className="flex-1 bg-[#c29a9a] text-white font-bold w-80 py-4 rounded-lg border-2 border-transparent hover:border-[#c29a9a] hover:bg-transparent hover:text-[#c29a9a]">
+  MES PROJETS
   </button>
+</a>
+
 
   {/* Bouton MON CV */}
-  <button className="flex-1 bg-[#c29a9a] text-white font-bold py-4 rounded-lg border-r border-white hover:opacity-90">
+  <a href=" /portfolio/public/Components/cv.jsx" className="">
+  <button className="flex-1 bg-[#c29a9a] text-white font-bold w-80 py-4 rounded-lg border-2 border-transparent hover:border-[#c29a9a] hover:bg-transparent hover:text-[#c29a9a]">
     MON CV
   </button>
+  </a>
 
   {/* Bouton CONTACT */}
-  <button className="flex-1 bg-[#c29a9a] text-white font-bold py-4 rounded-lg hover:opacity-90">
-    CONTACT
+  <a href="/portfolio/public/Components/contacts.jsx " className="">
+  <button className="flex-1 bg-[#c29a9a] text-white font-bold w-80 py-4 rounded-lg border-2 border-transparent hover:border-[#c29a9a] hover:bg-transparent hover:text-[#c29a9a]">
+  CONTACTEZ-MOI
   </button>
+  </a>
+
 </div>
 
 
