@@ -17,10 +17,10 @@ export default {
       },
       
       colors : {
-        'bg':'#E2EBF2',
-        'bleuFoncé':'#272030',
-        'rougeFoncé':'#4B0F0F',
-        'rose':'#C79999',
+        'bg':'#F6F1ED',
+        'bleuFoncé':'#6A5750',
+        'rougeFoncé':'#B5A397',
+        'rose':'#30231D',
       },
       fontFamily: {
         'druck': ["Druk Trial", "sans-serif"],

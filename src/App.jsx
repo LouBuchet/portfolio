@@ -82,7 +82,7 @@ const App = () => {
 <div className="justify-between flex w-2/3 mt-10">
   {/* Bouton PROJETS */}
   <a href=" /portfolio/public/Components/projets.jsx" className="">
-  <button className="flex-1 bg-[#c29a9a] text-white font-bold w-80 py-4 rounded-lg border-2 border-transparent hover:border-[#c29a9a] hover:bg-transparent hover:text-[#c29a9a]">
+  <button className="flex-1 bg-rose text-white font-bold w-80 py-4 rounded-lg border-2 border-transparent hover:border-rose hover:bg-transparent hover:text-rose">
   MES PROJETS
   </button>
 </a>
@@ -90,14 +90,14 @@ const App = () => {
 
   {/* Bouton MON CV */}
   <a href=" /portfolio/public/Components/cv.jsx" className="">
-  <button className="flex-1 bg-[#c29a9a] text-white font-bold w-80 py-4 rounded-lg border-2 border-transparent hover:border-[#c29a9a] hover:bg-transparent hover:text-[#c29a9a]">
+  <button className="flex-1 bg-rose text-white font-bold w-80 py-4 rounded-lg border-2 border-transparent hover:border-rose hover:bg-transparent hover:text-rose">
     MON CV
   </button>
   </a>
 
   {/* Bouton CONTACT */}
   <a href="/portfolio/public/Components/contacts.jsx " className="">
-  <button className="flex-1 bg-[#c29a9a] text-white font-bold w-80 py-4 rounded-lg border-2 border-transparent hover:border-[#c29a9a] hover:bg-transparent hover:text-[#c29a9a]">
+  <button className="flex-1 bg-rose text-white font-bold w-80 py-4 rounded-lg border-2 border-transparent hover:border-rose hover:bg-transparent hover:text-rose">
   CONTACTEZ-MOI
   </button>
   </a>
