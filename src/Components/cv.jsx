@@ -4,6 +4,11 @@ import { Link } from "react-router-dom";
 const Cv = () => {
   return (
     <div className="bg-bg min-h-screen">
+        <Link to="/Test">
+                  <button className="flex-1 bg-rose text-bg font-bold mt-5 ml-5 w-64 py-4 rounded-lg border-2 border-transparent hover:border-rose hover:bg-transparent hover:text-rose">
+                        ACCUEIL
+                  </button>
+                </Link>
       <div className="font-druck flex items-center justify-center pt-64">
         <div className="text-left">
           <h2 className="text-[6rem] font-bold text-bleuFoncé leading-none">
@@ -17,6 +22,9 @@ const Cv = () => {
       </div>
        <div className="bg-bg py-20 px-6 flex flex-col items-center">
          <div className="relative bg-bleuFoncé text-bg p-8 rounded-lg w-2/3">
+         <h1 className=" absolute ml-16 -top-14 left-11 text-9xl font-druck font-bold text-rose text-shadow-textShadow">
+             <span className="text-bg">Hello!</span>
+           </h1>
            <h1 className="absolute ml-16 -top-16 left-10 right-40 text-9xl font-druck font-bold text-rose text-shadow-textShadow">
              <span className="text-rougeFoncé">Hello!</span>
            </h1>
@@ -33,6 +41,20 @@ const Cv = () => {
              </p>
            </div>
          </div>
+
+         {/* <div className="w-full bg-rougeFoncé flex justify-center items-center mt-9">
+  <div className="">
+    <img
+      className="rounded-lg shadow-md h-96"
+      src="/public/assets/CV.jpg"
+      alt="Aperçu du CV"
+    />
+  </div>
+</div> */}
+
+
+
+
       
        
          <div className="justify-between flex w-2/3 mt-10 gap-10">

@@ -11,7 +11,7 @@ const App = () => {
 
       {/* Définition des routes */}
       <Routes>
-      <Route path="/" element={<Test/>}></Route>
+      <Route path="/Test" element={<Test/>}></Route>
         <Route path="/projets" element={<Projets />} />
         <Route path="/cv" element={<Cv />} />
         <Route path="/contacts" element={<Contacts />} />

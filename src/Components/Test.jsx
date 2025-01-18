@@ -4,10 +4,10 @@ export default function Test (){
 
 return (
  <div>
- <div className="bg-bg font-druck flex items-center justify-center min-h-screen">
+ <div className="bg-bg font-druck flex items-center justify-center pt-64 ">
    
 
-   <div className="font-druck flex items-center justify-center min-h-screen bg-bg">
+   <div className="font-druck flex items-center justify-center">
   <div className="text-left">
     <h2 className="text-[10rem] font-bold text-bleuFoncé leading-none">MON</h2>
     <h1 className="text-rougeFoncé text-[17rem] font-bold leading-none">PORTFOLIO</h1>
@@ -17,8 +17,8 @@ return (
  </div>
 
 
- <div className="bg-bg overflow-hidden">
-   <div className="w-full  mb-5 border-t-2 border-b-2 border-bleuFoncé flex"></div>
+ <div className="bg-bg overflow-hidden pt-32">
+   <div className="w-full mb-5 border-t-2 border-b-2 border-bleuFoncé flex"></div>
    <div className="flex gap-24 text-bleuFoncé animate-leftToRight space-x-16 text-xl sm:text-2xl font-semibold whitespace-nowrap">
      <span className="whitespace-nowrap">Graphisme</span>
      <span className="whitespace-nowrap">UX design</span>
@@ -30,8 +30,11 @@ return (
  </div>
 
 
- <div className="bg-bg py-20 px-6 flex flex-col items-center">
+ <div className="bg-bg py-20 px-6 flex flex-col items-center pt-48">
    <div className="relative bg-bleuFoncé text-bg p-8 rounded-lg w-2/3">
+   <h1 className=" absolute ml-16 -top-14 left-11 text-9xl font-druck font-bold text-rose text-shadow-textShadow">
+             <span className="text-bg">Hello!</span>
+           </h1>
      <h1 className="absolute ml-16 -top-16 left-10 right-40 text-9xl font-druck font-bold text-rose text-shadow-textShadow">
        <span className="text-rougeFoncé">Hello!</span>
      </h1>

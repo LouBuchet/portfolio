@@ -4,6 +4,11 @@ import { Link } from "react-router-dom";
 const Projets = () => {
   return (
     <div className="bg-bg min-h-screen">
+      <Link to="/Test">
+                <button className="flex-1 bg-rose text-bg font-bold mt-5 ml-5 w-64 py-4 rounded-lg border-2 border-transparent hover:border-rose hover:bg-transparent hover:text-rose">
+                      ACCUEIL
+                </button>
+              </Link>
       <div className="font-druck flex items-center justify-center pt-64">
         <div className="text-left">
           <h2 className="text-[6rem] font-bold text-bleuFoncé leading-none">
